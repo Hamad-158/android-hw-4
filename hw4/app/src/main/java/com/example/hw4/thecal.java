@@ -44,13 +44,14 @@ public class thecal<b, Beeez> extends AppCompatActivity {
         sin = button.getText().toString();
         textView.setText(sin);
         sint ="1";
+        scrtxt="";
 
     }
 
     public void onClickE(View view) {
         Button button = (Button)view;
 
-        if (sin.equals("=")){
+        if (sin.equals("+")){
             c = a+b;
         }else if (sin.equals("-")){
             c = a-b;
