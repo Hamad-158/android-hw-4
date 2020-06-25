@@ -25,12 +25,12 @@ public class thecal<b, Beeez> extends AppCompatActivity {
 
     public void onClicknumber(View view) {
         calr="0";
-        if (sint.equals("0"));{
+        if (sint.equals("0")){
             Button button = (Button)view;
             scrtxt += button.getText().toString();
             textView.setText(scrtxt);
             a = Float.parseFloat(scrtxt);
-        }if (sint.equals("0"));{
+        }else {
             Button button = (Button)view;
             scrtxt += button.getText().toString();
             textView.setText(scrtxt);
