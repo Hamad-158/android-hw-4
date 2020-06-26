@@ -3,6 +3,7 @@ package com.example.hw4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +25,20 @@ public class thecal<b, Beeez> extends AppCompatActivity {
         sint = "0";
         scrtxt = "";
         calr = "0";
+
+        Button a1 = findViewById(R.id.a1);
+        Button a2 = findViewById(R.id.a2);
+        Button a3 = findViewById(R.id.a3);
+        Button a4 = findViewById(R.id.a4);
+        Button a5 = findViewById(R.id.a5);
+        Button a6 = findViewById(R.id.a6);
+        Button a7 = findViewById(R.id.a7);
+        Button a8 = findViewById(R.id.a8);
+        Button a9 = findViewById(R.id.a9);
+        Button a0 = findViewById(R.id.a0);
+        a0.setDrawingCacheBackgroundColor(Color.DKGRAY);
+        a9.setDrawingCacheBackgroundColor(Color.DKGRAY);
+
     }
 
     public void onClicknumber(View view) {
@@ -102,7 +117,7 @@ public class thecal<b, Beeez> extends AppCompatActivity {
     }
 
     private String Greds5() {
-        return "NO Cooment";
+        return "NO Comment";
     }
 
     private String Greds4() {
